@@ -1,20 +1,7 @@
-# Ejemplo proyecto TDD NodeJS
-
-Fuente: https://www.taniarascia.com/unit-testing-in-javascript/
-
-## Ejecución de tests en GitHub Actions
-Fuente: https://docs.github.com/en/actions/guides/building-and-testing-nodejs
-
-El fichero `.github/workflows/testnode.yml` contiene la configuración necesaria para activar la acción de ejecución de tests. Está convenientemente comentado.
-
-## Instalación de Node
-Disponible en https://nodejs.org/es/
-
+# Test esPar
 
 ## Documentación
-El test definido en `test1.js` utiliza el módulo [assert](https://nodejs.org/api/assert.html) integrado en Node. 
-
-El test definido en `test2.js` utiliza la librería [should](https://shouldjs.github.io/).
+El test definido en `testPar.js` llama a la función esPar del archivo operations.js con diversos valores para verificar que funciona correctamente. 
 
 - [Mocha](https://mochajs.org/#getting-started)
 - [Should](https://shouldjs.github.io/)
