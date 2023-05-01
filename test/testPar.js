@@ -12,7 +12,7 @@ it('comprobar función esPar', function() {
   should.equal(operaciones.esPar(7), false);
   should.equal(operaciones.esPar(12), true);
   should.equal(operaciones.esPar(0), true);
-  should.equal(operaciones.esPar(-15), false);
+  should.equal(operaciones.esPar(-18), false);
   should.equal(operaciones.esPar(-6), true);
 });
 
